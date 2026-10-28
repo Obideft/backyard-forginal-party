@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#170923">
+<meta name="description" content="Enter the Backyard Forginal Party — the Halloween party channel unlocked by NFT #2.">
+<title>BACKYARD FORGINAL PARTY | FROGINALS</title>
+<style>
+:root{--bg:#170923;--panel:#21102f;--purple:#a855f7;--pink:#f725e8;--orange:#ff7a22;--gold:#ffd447;--text:#fff8ff;--muted:#d7c5e5}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;min-height:100vh;background:radial-gradient(ellipse at 50% -10%,#54216c 0,transparent 46%),radial-gradient(ellipse at 0% 70%,#32104d 0,transparent 42%),var(--bg);color:var(--text);font-family:system-ui,-apple-system,Segoe UI,sans-serif}
+body:before{content:"";position:fixed;inset:0;pointer-events:none;opacity:.14;background-image:linear-gradient(transparent 95%,rgba(255,255,255,.16) 96%),linear-gradient(90deg,transparent 95%,rgba(255,255,255,.12) 96%);background-size:28px 28px;mask-image:linear-gradient(to bottom,black,transparent 90%)}
+header{position:relative;z-index:1;display:flex;justify-content:center;padding:22px 16px 0}
+.brand{display:flex;align-items:center;gap:10px;text-decoration:none;color:var(--text);font-weight:950;letter-spacing:.13em;font-size:.85rem}
+.brand-mark{display:grid;place-items:center;width:36px;height:36px;border:2px solid var(--orange);border-radius:11px;color:var(--gold);box-shadow:0 0 20px #ff7a2244}
+main{position:relative;z-index:1;width:min(100% - 28px,880px);margin:0 auto;padding:42px 0 64px;text-align:center}
+.pill{display:inline-flex;align-items:center;gap:8px;padding:8px 13px;border:1px solid #ffd44780;border-radius:99px;background:#1a0b25cc;color:var(--gold);font-size:.72rem;font-weight:900;letter-spacing:.14em;text-transform:uppercase}
+h1{margin:22px 0 12px;font-size:clamp(2.65rem,9vw,6.3rem);line-height:.86;letter-spacing:-.075em;font-weight:1000;text-transform:uppercase;text-shadow:0 4px 0 #4b1768,0 0 34px #f725e844}
+h1 span{display:block;color:var(--orange);text-shadow:0 4px 0 #72265f,0 0 28px #ff7a2250}
+h1 em{font-style:normal;color:#fff}
+.lead{max-width:620px;margin:18px auto 28px;color:var(--muted);font-size:clamp(1rem,2.5vw,1.18rem);line-height:1.7}
+.visual{position:relative;overflow:hidden;min-height:220px;display:grid;place-items:center;margin:0 auto 22px;padding:26px;border:1px solid #b65cff77;border-radius:24px;background:radial-gradient(ellipse at 50% 120%,#f725e833,transparent 55%),linear-gradient(135deg,#2b1040,#180b26 60%,#321047);box-shadow:0 0 40px #a855f722,inset 0 0 40px #a855f711}
+.visual:before,.visual:after{content:"";position:absolute;width:190px;height:190px;border:1px solid #f725e833;border-radius:50%;box-shadow:0 0 0 18px #a855f70a,0 0 0 38px #a855f708}
+.visual:before{left:-90px;top:-105px}.visual:after{right:-85px;bottom:-125px}
+.party-icons{font-size:clamp(2.3rem,8vw,4.6rem);letter-spacing:.12em;filter:drop-shadow(0 0 15px #f725e855)}
+.visual-caption{position:relative;z-index:1;margin-top:12px;font-size:.72rem;font-weight:900;letter-spacing:.24em;color:#ffb4fa;text-transform:uppercase}
+.card{margin:0 auto;padding:clamp(22px,5vw,38px);text-align:left;border:1px solid #a855f788;border-radius:24px;background:linear-gradient(145deg,#261236f5,#1b0d29f5);box-shadow:0 20px 65px #08020d66}
+.card-head{text-align:center}
+.kicker{font-size:.72rem;font-weight:900;letter-spacing:.2em;color:#ff9df3;text-transform:uppercase}
+h2{margin:10px 0;font-size:clamp(1.8rem,5vw,3rem);line-height:1.05;letter-spacing:-.045em;text-transform:uppercase}
+h2 span{color:var(--gold)}
+.card-intro{max-width:600px;margin:12px auto 26px;text-align:center;color:var(--muted);line-height:1.7}
+.rules{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.rule{padding:17px;border:1px solid #ffffff17;border-radius:15px;background:#ffffff06}
+.rule strong{display:block;margin-bottom:6px;color:var(--gold);font-size:.9rem}
+.rule p{margin:0;color:#e6d9ed;font-size:.9rem;line-height:1.55}
+.warning{margin:16px 0 24px;padding:14px 16px;border-left:3px solid var(--orange);border-radius:0 12px 12px 0;background:#ff7a2210;color:#f4d7c5;font-size:.88rem;line-height:1.6}
+.actions{display:flex;flex-direction:column;align-items:center;gap:12px}
+.button{display:inline-flex;justify-content:center;align-items:center;gap:10px;width:min(100%,430px);min-height:56px;padding:15px 22px;border-radius:999px;text-decoration:none;text-transform:uppercase;font-size:.88rem;font-weight:950;letter-spacing:.055em;transition:transform .18s,box-shadow .18s}
+.button:hover{transform:translateY(-2px)}
+.primary{color:#1a0822;background:linear-gradient(100deg,var(--gold),var(--orange));box-shadow:0 0 28px #ff7a2233}
+.secondary{color:white;border:1px solid #c084fc;background:#321345}
+.fee{margin:20px 0 0;text-align:center;color:#d9c5e6;font-size:.78rem;font-weight:850;letter-spacing:.07em}
+.fee strong{color:var(--gold)}
+.small{margin:12px 0 0;text-align:center;color:#bba7c8;font-size:.76rem;line-height:1.6}
+footer{position:relative;z-index:1;padding:20px 12px 30px;text-align:center;color:#a991b7;font-size:.7rem;letter-spacing:.14em}
+@media(max-width:580px){main{padding-top:30px}.rules{grid-template-columns:1fr}.visual{min-height:175px}.card{border-radius:19px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important}}
+</style>
+</head>
+<body>
+<header><a class="brand" href="https://obideft.github.io/froginals/" aria-label="FROGINALS home"><span class="brand-mark">🐸</span><span>FROGINALS COMMUNITY</span></a></header>
+<main>
+  <div class="pill">🎃 Halloween Edition · Members Only</div>
+  <h1><span>Backyard</span><em>Forginal</em><span>Party</span></h1>
+  <p class="lead">Good vibes. Bigger dreams. Same Forginal energy. Welcome to the official party landing page — your gateway to the Halloween Party channel.</p>
+  <section class="visual" aria-label="Halloween party visual">
+    <div><div class="party-icons" aria-hidden="true">🐸 🎧 🐕 🎃 🪩</div><div class="visual-caption">The swamp is closed. The party is open.</div></div>
+  </section>
+  <section class="card" id="party">
+    <div class="card-head">
+      <div class="kicker">🎃 You're invited to the</div>
+      <h2><span>Halloween Party</span><br>Channel</h2>
+      <p class="card-intro">Join the crew, bring good energy, support the community, and help keep the Backyard Forginal Party a legendary hangout.</p>
+    </div>
+    <div class="rules">
+      <div class="rule"><strong>🤝 Be cool to the crew</strong><p>Be respectful, behave, and be supportive. No harassment, bullying, or starting drama.</p></div>
+      <div class="rule"><strong>🧹 Keep the floor clean</strong><p>Have fun, but don't leave trash on the floor. Respect the party space and the people in it.</p></div>
+      <div class="rule"><strong>👑 DEFT KING's party</strong><p>This is DEFT KING's party. Follow the house rules and respect the host.</p></div>
+      <div class="rule"><strong>🚪 Don't ruin the vibe</strong><p>DEFT KING can remove anyone from the party at any time if they break the rules or make the space worse for others.</p></div>
+    </div>
+    <div class="warning">By joining, you agree to behave, support other members, and respect the host. Keep it fun and keep it clean.</div>
+    <div class="actions">
+      <a class="button primary" href="https://discord.com/channels/@me" id="join-party">👾 Join the Party <span aria-hidden="true">→</span></a>
+      <a class="button secondary" href="https://obideft.github.io/froginals/" id="mint-link">🐸 Back to FROGINALS</a>
+    </div>
+    <p class="fee">UNLOCKED BY: <strong>NFT #2</strong> &nbsp; | &nbsp; MINT FEE: <strong>0.00578 SOL</strong></p>
+    <p class="small">NFT minting and membership checks must be completed by the official mint page or Discord access system. This landing page does not verify NFT ownership on its own.</p>
+  </section>
+</main>
+<footer>BACKYARD FORGINAL PARTY · HALLOWEEN EDITION · FROGINALS</footer>
+<script>
+/* Replace these placeholders with your real Discord invite and NFT mint URLs before launch. */
+const PARTY_DISCORD_INVITE = "https://discord.com/channels/@me";
+const NFT_MINT_URL = "https://obideft.github.io/froginals/";
+document.getElementById("join-party").href = PARTY_DISCORD_INVITE;
+document.getElementById("mint-link").href = NFT_MINT_URL;
+</script>
+</body>
+</html>
