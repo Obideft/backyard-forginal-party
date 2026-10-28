@@ -4,89 +4,76 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="theme-color" content="#170923">
-<meta name="description" content="Enter the Backyard Forginal Party — the Halloween party channel unlocked by NFT #2.">
+<meta name="description" content="Backyard Forginal Party — Halloween edition. Join the party and read the conditions.">
 <title>BACKYARD FORGINAL PARTY | FROGINALS</title>
 <style>
-:root{--bg:#170923;--panel:#21102f;--purple:#a855f7;--pink:#f725e8;--orange:#ff7a22;--gold:#ffd447;--text:#fff8ff;--muted:#d7c5e5}
-*{box-sizing:border-box}
-html{scroll-behavior:smooth}
-body{margin:0;min-height:100vh;background:radial-gradient(ellipse at 50% -10%,#54216c 0,transparent 46%),radial-gradient(ellipse at 0% 70%,#32104d 0,transparent 42%),var(--bg);color:var(--text);font-family:system-ui,-apple-system,Segoe UI,sans-serif}
-body:before{content:"";position:fixed;inset:0;pointer-events:none;opacity:.14;background-image:linear-gradient(transparent 95%,rgba(255,255,255,.16) 96%),linear-gradient(90deg,transparent 95%,rgba(255,255,255,.12) 96%);background-size:28px 28px;mask-image:linear-gradient(to bottom,black,transparent 90%)}
-header{position:relative;z-index:1;display:flex;justify-content:center;padding:22px 16px 0}
-.brand{display:flex;align-items:center;gap:10px;text-decoration:none;color:var(--text);font-weight:950;letter-spacing:.13em;font-size:.85rem}
-.brand-mark{display:grid;place-items:center;width:36px;height:36px;border:2px solid var(--orange);border-radius:11px;color:var(--gold);box-shadow:0 0 20px #ff7a2244}
-main{position:relative;z-index:1;width:min(100% - 28px,880px);margin:0 auto;padding:42px 0 64px;text-align:center}
-.pill{display:inline-flex;align-items:center;gap:8px;padding:8px 13px;border:1px solid #ffd44780;border-radius:99px;background:#1a0b25cc;color:var(--gold);font-size:.72rem;font-weight:900;letter-spacing:.14em;text-transform:uppercase}
-h1{margin:22px 0 12px;font-size:clamp(2.65rem,9vw,6.3rem);line-height:.86;letter-spacing:-.075em;font-weight:1000;text-transform:uppercase;text-shadow:0 4px 0 #4b1768,0 0 34px #f725e844}
-h1 span{display:block;color:var(--orange);text-shadow:0 4px 0 #72265f,0 0 28px #ff7a2250}
-h1 em{font-style:normal;color:#fff}
-.lead{max-width:620px;margin:18px auto 28px;color:var(--muted);font-size:clamp(1rem,2.5vw,1.18rem);line-height:1.7}
-.visual{position:relative;overflow:hidden;min-height:220px;display:grid;place-items:center;margin:0 auto 22px;padding:26px;border:1px solid #b65cff77;border-radius:24px;background:radial-gradient(ellipse at 50% 120%,#f725e833,transparent 55%),linear-gradient(135deg,#2b1040,#180b26 60%,#321047);box-shadow:0 0 40px #a855f722,inset 0 0 40px #a855f711}
-.visual:before,.visual:after{content:"";position:absolute;width:190px;height:190px;border:1px solid #f725e833;border-radius:50%;box-shadow:0 0 0 18px #a855f70a,0 0 0 38px #a855f708}
-.visual:before{left:-90px;top:-105px}.visual:after{right:-85px;bottom:-125px}
-.party-icons{font-size:clamp(2.3rem,8vw,4.6rem);letter-spacing:.12em;filter:drop-shadow(0 0 15px #f725e855)}
-.visual-caption{position:relative;z-index:1;margin-top:12px;font-size:.72rem;font-weight:900;letter-spacing:.24em;color:#ffb4fa;text-transform:uppercase}
-.card{margin:0 auto;padding:clamp(22px,5vw,38px);text-align:left;border:1px solid #a855f788;border-radius:24px;background:linear-gradient(145deg,#261236f5,#1b0d29f5);box-shadow:0 20px 65px #08020d66}
-.card-head{text-align:center}
-.kicker{font-size:.72rem;font-weight:900;letter-spacing:.2em;color:#ff9df3;text-transform:uppercase}
-h2{margin:10px 0;font-size:clamp(1.8rem,5vw,3rem);line-height:1.05;letter-spacing:-.045em;text-transform:uppercase}
-h2 span{color:var(--gold)}
-.card-intro{max-width:600px;margin:12px auto 26px;text-align:center;color:var(--muted);line-height:1.7}
-.rules{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
-.rule{padding:17px;border:1px solid #ffffff17;border-radius:15px;background:#ffffff06}
-.rule strong{display:block;margin-bottom:6px;color:var(--gold);font-size:.9rem}
-.rule p{margin:0;color:#e6d9ed;font-size:.9rem;line-height:1.55}
-.warning{margin:16px 0 24px;padding:14px 16px;border-left:3px solid var(--orange);border-radius:0 12px 12px 0;background:#ff7a2210;color:#f4d7c5;font-size:.88rem;line-height:1.6}
-.actions{display:flex;flex-direction:column;align-items:center;gap:12px}
-.button{display:inline-flex;justify-content:center;align-items:center;gap:10px;width:min(100%,430px);min-height:56px;padding:15px 22px;border-radius:999px;text-decoration:none;text-transform:uppercase;font-size:.88rem;font-weight:950;letter-spacing:.055em;transition:transform .18s,box-shadow .18s}
-.button:hover{transform:translateY(-2px)}
-.primary{color:#1a0822;background:linear-gradient(100deg,var(--gold),var(--orange));box-shadow:0 0 28px #ff7a2233}
-.secondary{color:white;border:1px solid #c084fc;background:#321345}
-.fee{margin:20px 0 0;text-align:center;color:#d9c5e6;font-size:.78rem;font-weight:850;letter-spacing:.07em}
-.fee strong{color:var(--gold)}
-.small{margin:12px 0 0;text-align:center;color:#bba7c8;font-size:.76rem;line-height:1.6}
-footer{position:relative;z-index:1;padding:20px 12px 30px;text-align:center;color:#a991b7;font-size:.7rem;letter-spacing:.14em}
-@media(max-width:580px){main{padding-top:30px}.rules{grid-template-columns:1fr}.visual{min-height:175px}.card{border-radius:19px}}
-@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important}}
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Space+Grotesk:wght@400;500;600;700;800&display=swap');
+:root{--orange:#ff7900;--yellow:#ffd447;--paper:#fff8e8;--panel:#291238;--line:rgba(255,212,71,.45);--purple:#170923;--purple2:#321044}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--purple);color:var(--paper);font-family:'Space Grotesk',sans-serif;min-height:100vh}
+.hero{min-height:100svh;position:relative;display:flex;flex-direction:column;align-items:center;justify-content:flex-start;text-align:center;padding:0 20px 48px;background:radial-gradient(ellipse at 50% 55%,#54216c 0,transparent 55%),var(--purple)}
+.banner{display:block;width:min(100%,1500px);height:auto;max-height:56vh;object-fit:contain;object-position:center;margin:0 auto 22px}
+.hero-content{width:min(100%,1100px);margin:0 auto}
+.brand{display:inline-block;margin:0 auto 16px;color:var(--yellow);font-size:11px;font-weight:900;letter-spacing:2px;text-transform:uppercase}
+h1{font:clamp(25px,5.8vw,62px)/1.35 'Press Start 2P',monospace;letter-spacing:-2px;margin:8px auto 14px;color:#fff7e7;text-shadow:4px 4px 0 #100714,7px 7px 0 var(--orange);overflow-wrap:anywhere}
+.tagline{font-size:clamp(17px,2.7vw,28px);font-weight:800;letter-spacing:.08em;text-transform:uppercase;margin:0 0 12px;color:var(--yellow);text-shadow:2px 3px #100714}
+.intro{font-size:clamp(15px,1.7vw,19px);font-weight:700;line-height:1.6;max-width:760px;margin:0 auto 22px;color:#f2e5fa}
+.hero-actions{display:flex;align-items:stretch;justify-content:center;gap:14px;flex-wrap:wrap;margin:22px auto 0}
+.btn{position:relative;display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:54px;min-width:min(240px,100%);padding:15px 19px;text-decoration:none;text-transform:uppercase;font:clamp(10px,1.1vw,13px)/1.5 'Press Start 2P',monospace;letter-spacing:.1px;border:2px solid #0d080f;box-shadow:0 5px 0 #0d080f,0 0 0 2px rgba(255,255,255,.1) inset;transition:transform .16s,filter .16s;cursor:pointer}
+.btn:hover{transform:translateY(-3px);filter:brightness(1.12)}.btn:active{transform:translateY(3px);box-shadow:0 2px 0 #0d080f}
+.btn-primary{background:linear-gradient(180deg,#ffad36 0%,#ff7900 52%,#d85a00 100%);color:#171717;text-shadow:1px 1px rgba(255,255,255,.25)}
+.btn-glass{background:linear-gradient(135deg,rgba(255,255,255,.2),rgba(255,255,255,.05) 42%,rgba(255,212,71,.12));border-color:rgba(255,244,200,.8);color:#fff8e8;text-shadow:2px 2px #111018;box-shadow:0 5px 0 #100714,0 0 0 2px rgba(255,255,255,.1) inset}
+.pointing-hand{font-family:'Space Grotesk',sans-serif;font-size:20px;line-height:1;animation:point 1s steps(2,end) infinite}
+@keyframes point{0%,100%{transform:translateX(0)}50%{transform:translateX(5px)}}
+.scroll-hint{margin-top:20px;font-size:10px;font-weight:800;letter-spacing:1.5px;text-transform:uppercase;color:#d8c4e6}
+main{max-width:1050px;margin:auto;padding:20px 18px 64px}.section-title{font:clamp(17px,2.4vw,26px)/1.6 'Press Start 2P',monospace;color:var(--yellow);margin:22px 0 18px}
+details{margin:14px 0;border:1px solid var(--line);background:var(--panel);box-shadow:0 5px 0 #100714;border-radius:3px}summary{list-style:none;cursor:pointer;padding:18px 20px;font-size:clamp(13px,1.8vw,17px);font-weight:900;letter-spacing:.04em;text-transform:uppercase;display:flex;align-items:center;justify-content:space-between;gap:14px}summary::-webkit-details-marker{display:none}summary:after{content:"+";font:24px 'Space Grotesk',sans-serif;color:var(--orange);flex:none}details[open] summary:after{content:"−"}
+.details-body{padding:0 22px 22px;line-height:1.7;color:#eee4f5}.details-body strong{color:#fff}.details-body ul{padding-left:22px}.note{border-left:4px solid var(--orange);padding:12px 15px;background:rgba(255,121,0,.09);font-size:14px}
+footer{text-align:center;padding:28px 18px 40px;color:#c8b7d3;font-weight:800;letter-spacing:1px;font-size:11px}footer strong{color:var(--orange)}
+@media(max-width:650px){.hero{padding:0 14px 36px;min-height:auto}.banner{width:calc(100% + 28px);max-width:none;max-height:none;margin:0 -14px 20px}.hero-actions{width:100%;gap:11px}.btn{width:100%;min-width:0;min-height:50px;padding:13px 10px}.details-body{padding:0 16px 18px}summary{padding:16px;font-size:12px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation:none!important;transition:none!important}}
 </style>
 </head>
 <body>
-<header><a class="brand" href="https://obideft.github.io/froginals/" aria-label="FROGINALS home"><span class="brand-mark">🐸</span><span>FROGINALS COMMUNITY</span></a></header>
-<main>
-  <div class="pill">🎃 Halloween Edition · Members Only</div>
-  <h1><span>Backyard</span><em>Forginal</em><span>Party</span></h1>
-  <p class="lead">Good vibes. Bigger dreams. Same Forginal energy. Welcome to the official party landing page — your gateway to the Halloween Party channel.</p>
-  <section class="visual" aria-label="Halloween party visual">
-    <div><div class="party-icons" aria-hidden="true">🐸 🎧 🐕 🎃 🪩</div><div class="visual-caption">The swamp is closed. The party is open.</div></div>
-  </section>
-  <section class="card" id="party">
-    <div class="card-head">
-      <div class="kicker">🎃 You're invited to the</div>
-      <h2><span>Halloween Party</span><br>Channel</h2>
-      <p class="card-intro">Join the crew, bring good energy, support the community, and help keep the Backyard Forginal Party a legendary hangout.</p>
-    </div>
-    <div class="rules">
-      <div class="rule"><strong>🤝 Be cool to the crew</strong><p>Be respectful, behave, and be supportive. No harassment, bullying, or starting drama.</p></div>
-      <div class="rule"><strong>🧹 Keep the floor clean</strong><p>Have fun, but don't leave trash on the floor. Respect the party space and the people in it.</p></div>
-      <div class="rule"><strong>👑 DEFT KING's party</strong><p>This is DEFT KING's party. Follow the house rules and respect the host.</p></div>
-      <div class="rule"><strong>🚪 Don't ruin the vibe</strong><p>DEFT KING can remove anyone from the party at any time if they break the rules or make the space worse for others.</p></div>
-    </div>
-    <div class="warning">By joining, you agree to behave, support other members, and respect the host. Keep it fun and keep it clean.</div>
-    <div class="actions">
-      <a class="button primary" href="https://discord.com/channels/@me" id="join-party">👾 Join the Party <span aria-hidden="true">→</span></a>
-      <a class="button secondary" href="https://obideft.github.io/froginals/" id="mint-link">🐸 Back to FROGINALS</a>
-    </div>
-    <p class="fee">UNLOCKED BY: <strong>NFT #2</strong> &nbsp; | &nbsp; MINT FEE: <strong>0.00578 SOL</strong></p>
-    <p class="small">NFT minting and membership checks must be completed by the official mint page or Discord access system. This landing page does not verify NFT ownership on its own.</p>
-  </section>
+<header class="hero" id="top">
+<img class="banner" src="https://raw.githubusercontent.com/Obideft/backyard-forginal-party/main/images/BANNER-JOIN-THE-PARTY.png" alt="Backyard Forginal Party Halloween banner">
+<div class="hero-content">
+<div class="brand">🐸 FROGINALS COMMUNITY PRESENTS</div>
+<h1>BACKYARD<br>FORGINAL PARTY</h1>
+<p class="tagline">Halloween Edition · Party Channel</p>
+<p class="intro">Good vibes. Bigger dreams. Same Forginal energy. Join the crew, support the community, and keep the Backyard Forginal Party legendary.</p>
+<div class="hero-actions">
+<a class="btn btn-primary" href="#party" id="join-party">🎃 JOIN THE PARTY</a>
+<button class="btn btn-glass" id="readConditions" type="button"><span class="pointing-hand" aria-hidden="true">👉</span> READ CONDITIONS</button>
+</div>
+<p class="scroll-hint">NFT #2 unlocks the Halloween party channel · Mint fee: 0.00578 SOL</p>
+</div>
+</header>
+<main id="party" hidden>
+<h2 class="section-title">THE PARTY CONDITIONS</h2>
+<details><summary>01 — Be cool to the crew</summary><div class="details-body"><p>Behave, be respectful, and support the community. No harassment, bullying, or starting drama. Everyone should help keep the party fun.</p></div></details>
+<details><summary>02 — Keep the floor clean</summary><div class="details-body"><p>Have fun, but <strong>don't leave trash on the floor</strong>. Respect the party space and the people in it.</p></div></details>
+<details><summary>03 — This is DEFT KING's party</summary><div class="details-body"><p>Respect the host and follow the house rules. Bring good energy and support the crew.</p></div></details>
+<details><summary>04 — Don't ruin the vibe</summary><div class="details-body"><p><strong>DEFT KING can kick anyone out at any time.</strong> If someone breaks the rules or makes the space worse for others, the host can remove them from the party.</p></div></details>
+<div class="note"><strong>By joining the party, you agree:</strong> behave, support the community, keep the floor clean, and respect DEFT KING's rules.</div>
+<div class="hero-actions"><a class="btn btn-primary" href="https://discord.com/channels/@me" id="discord-link">👾 JOIN THE PARTY CHANNEL</a><a class="btn btn-glass" href="https://obideft.github.io/froginals/">🐸 BACK TO FROGINALS</a></div>
+<p class="scroll-hint">ACCESS: NFT #2 · MINT FEE: 0.00578 SOL</p>
 </main>
-<footer>BACKYARD FORGINAL PARTY · HALLOWEEN EDITION · FROGINALS</footer>
+<footer><strong>BACKYARD FORGINAL PARTY</strong> · HALLOWEEN EDITION · FROGINALS</footer>
 <script>
-/* Replace these placeholders with your real Discord invite and NFT mint URLs before launch. */
-const PARTY_DISCORD_INVITE = "https://discord.com/channels/@me";
-const NFT_MINT_URL = "https://obideft.github.io/froginals/";
-document.getElementById("join-party").href = PARTY_DISCORD_INVITE;
-document.getElementById("mint-link").href = NFT_MINT_URL;
+(function(){
+ const readButton=document.getElementById('readConditions');
+ const party=document.getElementById('party');
+ const joinButton=document.getElementById('join-party');
+ function toggleConditions(open){
+   party.hidden=!open;
+   readButton.innerHTML=open?'<span class="pointing-hand" aria-hidden="true">👉</span> HIDE CONDITIONS':'<span class="pointing-hand" aria-hidden="true">👉</span> READ CONDITIONS';
+   joinButton.textContent=open?'🎃 PARTY CONDITIONS OPEN':'🎃 JOIN THE PARTY';
+   if(open) party.scrollIntoView({behavior:'smooth',block:'start'});
+   else document.getElementById('top').scrollIntoView({behavior:'smooth',block:'start'});
+ }
+ readButton.addEventListener('click',()=>toggleConditions(party.hidden));
+ joinButton.addEventListener('click',function(e){e.preventDefault();toggleConditions(party.hidden);});
+})();
 </script>
 </body>
 </html>
